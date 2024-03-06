@@ -4,7 +4,7 @@
 - Fill in your chat name
 - Enjoy
 
-```
+```python
 import os
 import pandas as pd
 import random
@@ -14,7 +14,7 @@ import json
 ```
 - Faker data
 
-```
+```python
 faker = Faker()
 
 data = []
@@ -35,7 +35,7 @@ for _ in range(1000):
 ```
 
 - export data
-```
+```python
 def export_data(data, period):
     
     df = pd.DataFrame(data)
